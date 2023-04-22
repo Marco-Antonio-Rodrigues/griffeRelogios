@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 function Header(){
   return(
     <div className="header">
-        <img  className='image-header' src="src/assets/logo.svg"/>
+        <img alt='logo griffe relógios' className='image-header' src="src/assets/logo.svg"/>
       <div className='menu'>
         <a href='#catalog'>Catálogo</a>
         <a href='#about'>Sobre nós</a>
