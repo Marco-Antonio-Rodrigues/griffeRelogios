@@ -1,0 +1,38 @@
+.header{
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(98.4, 84.3, 33.3, 0.6);
+}
+
+.image-header{
+  width: 5rem;
+  padding-left: 0.3125rem;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1rem;
+  color: #FBD755;
+}
+
+@media (min-width: 25rem){ 
+  .image-header{
+    width: 7rem;
+    padding-left: 0.3125rem;
+  }
+  .menu{
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 43.75rem){ 
+  .image-header{
+    width: 10rem;
+    padding-left: 0.3125rem;
+  }
+}

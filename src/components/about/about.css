@@ -1,0 +1,23 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  text-indent: 0.9375rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.image-about{
+  width: 15.625rem;
+}
+
+@media (min-width: 25rem){ 
+  .image-about{
+    width: 20.625rem;
+  }
+}
+
+@media (min-width: 43.75rem){ 
+  .image-about{
+    width: 21.875rem;
+  }
+}

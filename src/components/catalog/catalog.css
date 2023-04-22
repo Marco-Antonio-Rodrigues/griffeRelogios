@@ -1,0 +1,45 @@
+.catalog{
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-bottom: 1.875rem;
+}
+.catalog-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botton-catalog{
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  background-color: #D0B03F;
+  border-radius: 0.625rem;
+  padding: 0.625rem; 
+
+}
+
+.botton-catalog:hover{
+  background-color: #A48A2A;
+}
+
+.logowhatsapp{
+  width:1.875rem;
+  padding-left: 0.625rem;
+}
+.qrcode{
+  width: 14.375rem;
+}
+
+@media (min-width: 25rem){ 
+  .botton-catalog{
+    padding: 0.9375rem;
+  }
+
+  .logowhatsapp{
+    padding-left: 0.9375rem;
+  }
+  .qrcode{
+    width: 18.75rem;
+  }
+}
