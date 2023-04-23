@@ -1,5 +1,6 @@
 import './catalog.css'
 import qrcode from '../../assets/qrcode.png'
+import logowhatsapp from '../../assets/logowhatsapp.png'
 
 function Catalog(){
   return(
@@ -9,7 +10,7 @@ function Catalog(){
         <img alt='Qr code para catálogo' src={qrcode} className='qrcode'></img>
         <a href='https://www.whatsapp.com/catalog/558581711232/?app_absent=0' className='botton-catalog'>
           <span>Catálogo Whatsapp</span>
-          <img src='src/assets/logowhatsapp.png' className='logowhatsapp'></img>
+          <img src={logowhatsapp} className='logowhatsapp'></img>
         </a>
       </div>
     </div>

@@ -1,9 +1,10 @@
 import './header.css'
-import {Link} from 'react-router-dom'
+import logo from '../../assets/logo.svg'
+
 function Header(){
   return(
     <div className="header">
-        <img alt='logo griffe relógios' className='image-header' src="src/assets/logo.svg"/>
+        <img alt='logo griffe relógios' className='image-header' src={logo}/>
       <div className='menu'>
         <a href='#catalog'>Catálogo</a>
         <a href='#about'>Sobre nós</a>
