@@ -1,7 +1,6 @@
 import './carousel.css'
-import { useState, useEffect} from 'react';
-import React from 'react';
 import { motion } from "framer-motion"; 
+import { useState, useEffect, useRef} from 'react';
 import banner1 from '../../assets/banner1.png'
 import banner2 from '../../assets/banner2.png'
 import banner3 from '../../assets/banner3.png'
@@ -9,11 +8,13 @@ import banner3 from '../../assets/banner3.png'
 const images = [banner1,banner2,banner3]
 
 function Carousel(){
-  const slide = React.useRef(HTMLElement.arguments);
   const [width,setWidth] = useState(0);
+  const slide = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    setWidth(slide.current?.scrollWidth - slide.current?.offsetWidth)
+    if (slide?.current) {
+      setWidth(slide.current?.scrollWidth - slide.current?.offsetWidth)
+    }
   },[])
 
   return(
