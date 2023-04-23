@@ -44,7 +44,6 @@
 
 .messageErrors{
   color: red;
-  font-size: 0.9735px;
-  margin-top: -0.9735px;
+  margin-top: -0.625rem;;
 }
 
